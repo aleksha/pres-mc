@@ -33,6 +33,7 @@ Next step is to download a list of requirements and setup pres-mc envoirement.
 ```bash
 cd /home/user
 git clone https://github.com/aleksha/pres-mc.git
+cd pres-mc
 conda create --name pres-mc
 conda activate pres-mc
 conda install --yes --file pres-mc-requirements.txt
