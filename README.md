@@ -26,6 +26,7 @@ wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
 source /home/user/miniconda3/etc/profile.d/conda.sh
 conda config --add channels conda-forge
+conda update -n base -c defaults conda
 mkdir pres-mc
 cd pres-mc
 wget http://adzyuba.web.cern.ch/adzyuba/d/pres-mc-requirements.txt
