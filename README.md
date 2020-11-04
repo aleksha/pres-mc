@@ -33,8 +33,6 @@ wget http://adzyuba.web.cern.ch/adzyuba/d/pres-mc-requirements.txt
 conda create --name pres-mc
 conda activate pres-mc
 conda install --yes --file pres-mc-requirements.txt
-git clone https://github.com/gramolin/esepp.git
-cd esepp
 ```
 
 Nest step is to download and compile ESEPP event generator:
