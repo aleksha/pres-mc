@@ -31,9 +31,8 @@ conda update -n base -c defaults conda
 
 Next step is to download a list of requirements and setup pres-mc envoirement.
 ```bash
-mkdir pres-mc
-cd pres-mc
-wget http://adzyuba.web.cern.ch/adzyuba/d/pres-mc-requirements.txt
+cd /home/user
+git clone https://github.com/aleksha/pres-mc.git
 conda create --name pres-mc
 conda activate pres-mc
 conda install --yes --file pres-mc-requirements.txt
@@ -41,6 +40,7 @@ conda install --yes --file pres-mc-requirements.txt
 
 Nest step is to download and compile ESEPP event generator:
 ```bash
+cd /home/user
 git clone https://github.com/gramolin/esepp.git
 cd esepp
 make
