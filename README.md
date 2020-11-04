@@ -15,8 +15,9 @@ passwd user
 adduser user sudo
 su user
 bash
+cd
 ```
-Last command switch you to a user account and init bash session.
+Last couple of commands switch you to a user account, init bash session and bring you into your home directory.
 **Note:** If you use cloud-based installation it's better not to update cloud scripts.
 
 As a user you have to download Miniconda scripts, requirements list and setup envoirement. Here is a stack of commands:
