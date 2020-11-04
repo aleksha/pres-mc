@@ -24,7 +24,7 @@ As a user you have to download Miniconda scripts, requirements list and setup en
 ```bash
 wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
-source path-to-miniconda/etc/profile.d/conda.sh
+source /home/user/miniconda3/etc/profile.d/conda.sh
 conda config --add channels conda-forge
 mkdir pres-mc
 cd pres-mc
