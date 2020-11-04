@@ -4,7 +4,7 @@ An attempt to create MC stack for the PRES experiment.
 
 ## Software installation guide
 
-Suppose one have a fresh Ubuntu 20.04 LTS b6-bit installation and a root access. 
+Suppose one have a fresh Ubuntu 20.04 LTS 64-bit installation and a root access. 
 Run as a root-user:
 ```bash
 apt update
@@ -45,3 +45,10 @@ git clone https://github.com/gramolin/esepp.git
 cd esepp
 make
 ```
+
+## Links on software
+ - https://releases.ubuntu.com/20.04/
+ - https://docs.conda.io/en/latest/miniconda.html
+ - https://root.cern.ch/
+ - https://geant4.web.cern.ch/
+ - https://github.com/gramolin/esepp.git
