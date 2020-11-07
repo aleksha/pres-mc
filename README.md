@@ -16,7 +16,7 @@ source ~/miniconda3/etc/profile.d/conda.sh # replace "~/miniconda3/" with your c
 conda config --add channels conda-forge
 conda update -n base -c defaults conda
 ```
-note: if you close your shell you will have to run conda.sh again; alternatively, you can run "conda init" to make the script run automatically each time you open your shell;
+note: if you close your shell you will have to run conda.sh again; alternatively, you can run "conda init" to make the script run automatically each time you open your shell, for more information run "conda init --help"
 
 
 Next step is to setup the environment and install the requirements.
@@ -29,7 +29,7 @@ conda activate pres-mc
 conda install --yes --file requirements.txt
 ```
 
-Next step is to download and ESEPP event generator:
+Next step is to download and build ESEPP event generator:
 ```bash
 cd
 git clone https://github.com/gramolin/esepp.git
