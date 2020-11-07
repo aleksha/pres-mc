@@ -16,7 +16,7 @@ source ~/miniconda3/etc/profile.d/conda.sh # replace "~/miniconda3/" with your c
 conda config --add channels conda-forge
 conda update -n base -c defaults conda
 ```
-note: if you close your shell you will have to run conda.sh again; alternatively, you can run "conda init" to make the script run automatically each time you open your shell, for more information run "conda init --help"
+**Note:** If you close your shell you will have to run conda.sh again; alternatively, you can run "conda init" to make the script run automatically each time you open your shell, for more information run "conda init --help"
 
 
 Next step is to setup the environment and install the requirements.
