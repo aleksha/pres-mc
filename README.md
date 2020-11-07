@@ -2,9 +2,12 @@
 
 An attempt to create MC stack for the PRES experiment.
 
+## Prerequisites:
+64-bit Linux installation (tested on Ubuntu 20.04 LTS 64-bit)
+Git
+
 ## Software installation guide
 
-Suppose you have a fresh Ubuntu 20.04 LTS 64-bit installation and a root access.
 
 **Note:** If you use cloud-based installation it's better not to update the cloud scripts.
 
