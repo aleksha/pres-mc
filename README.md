@@ -40,6 +40,16 @@ cd esepp
 make
 ```
 
+After compillation is over one have to create a simlinks into a pres-mc
+directory:
+```bash
+cd
+cd prec-mc
+ln -s /home/user/esepp/esepp esepp
+ln -s /home/user/esepp/vpol.dat vpol.dat
+```
+Now you canrun it as a part of a pres-mc project.
+
 ## Links
  - https://releases.ubuntu.com/20.04/
  - https://docs.conda.io/en/latest/miniconda.html
